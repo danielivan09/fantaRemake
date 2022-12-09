@@ -1,0 +1,45 @@
+/* Navbar */
+.navbar{
+    background-color: white;
+    height: 6rem;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.navbar img{
+    height: 80px;
+}
+
+#navbarSupportedContent{
+    font-weight: bolder;
+    color: black;
+}
+
+#navbarSupportedContent ul li a{
+    color: black;
+}
+
+
+#navbarSupportedContent ul li a:hover{
+    color: orangered;
+    text-decoration: underline 3px;
+}
+
+#icons:hover{
+    color: orangered;
+}
+
+#user{
+    font-size: 25px;
+}
+/* Navbar */
+
+
+
+/* Jumbotron */
+.jumbotron img{
+    width: 100%; 
+    overflow: auto;
+}
+/* Jumbotron */

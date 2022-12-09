@@ -1,0 +1,106 @@
+/* Navbar */
+.navbar{
+    background-color: white;
+    height: 6rem;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.navbar img{
+    height: 80px;
+}
+
+#navbarSupportedContent{
+    font-weight: bolder;
+    color: black;
+}
+
+#navbarSupportedContent ul li a{
+    color: black;
+}
+
+
+#navbarSupportedContent ul li a:hover{
+    color: orangered;
+    text-decoration: underline 3px;
+}
+
+#icons:hover{
+    color: orangered;
+}
+
+#user{
+    font-size: 25px;
+}
+/* Navbar */
+
+
+
+/* Jumbotron */
+.jumbotron img{
+    width: 100%; 
+    overflow: auto;
+}
+/* Jumbotron */
+
+/* content */
+
+.content{
+    background-image: url('asset/second-hero-desktop.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+.content h3{
+    color: #20b9f5;
+    font-weight: bolder;
+}
+
+.content h5{
+    color: white;
+    font-weight: bolder;
+}
+
+#emailform{
+    border-radius: 0px;
+    height: 45px;
+}
+
+#inputdate{
+    border-radius: 0px;
+    height: 45px;
+    font-weight: bolder;
+}
+
+
+/* content */
+
+/* blue image */
+
+#blueimage{
+    background-size: cover;
+    width: 100%; 
+    overflow: auto;
+    margin-top: -10px;
+}
+
+/* blue image */
+
+#listbutton{
+    background-color: #20b9f5;
+    color: black;
+    font-weight: bold;
+    border-radius: 0px;
+    width: 180px;
+    height: 50px;
+    border: 1px solid;
+    
+}
+
+#listbutton:hover{
+    background-color: orangered;
+    color: white;
+    border: 1px solid;
+    border-color: black;
+}
