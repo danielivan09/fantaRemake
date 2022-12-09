@@ -50,6 +50,7 @@
     background-image: url('asset/second-hero-desktop.png');
     background-size: cover;
     height: 100vh;
+    margin-top: -10px;
 }
 
 .content h3{
@@ -73,6 +74,47 @@
     font-weight: bolder;
 }
 
+#listbutton{
+    background-color: #20b9f5;
+    color: black;
+    font-weight: bold;
+    border-radius: 0px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid;
+    
+}
+
+#listbutton:hover{
+    background-color: orangered;
+    color: white;
+    border: 1px solid;
+    border-color: black;
+}
+
+.line{
+    width: 700px;
+    height: 5px;
+    background: linear-gradient(
+        to bottom,
+        transparent 2px,
+        #20b9f5 2px,
+        #20b9f5 25px,
+        transparent 3px
+    );
+    
+}
+
+#iconscontent{
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#iconscontent:hover{
+    color: orangered;
+}
 
 /* content */
 
@@ -85,22 +127,7 @@
     margin-top: -10px;
 }
 
+
+
 /* blue image */
 
-#listbutton{
-    background-color: #20b9f5;
-    color: black;
-    font-weight: bold;
-    border-radius: 0px;
-    width: 180px;
-    height: 50px;
-    border: 1px solid;
-    
-}
-
-#listbutton:hover{
-    background-color: orangered;
-    color: white;
-    border: 1px solid;
-    border-color: black;
-}
