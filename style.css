@@ -131,3 +131,16 @@
 
 /* blue image */
 
+
+/* content 2 */
+
+.content2{
+    background-image: url('asset/fanta-background.png');
+    height: 100vh;
+    background-size: cover;
+}
+
+.content2 .carousel-inner{
+    justify-content: center;
+}
+/* content 2 */
